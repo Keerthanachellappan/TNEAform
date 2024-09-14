@@ -1,0 +1,51 @@
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 20px;
+    background-color: #f8f9fa; /* Optional background color */
+    margin: auto auto auto auto;
+  }
+  .form-container{
+    display: inline;
+    align-items: start;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .logo {
+    width: 50px; /* Reduced size of the logo */
+    height: auto;
+  }
+  
+  .header-text {
+    flex-grow: 1; 
+    text-align: center; 
+  }
+  
+  h3, h4 {
+    margin: 5px 0; 
+  }
+  /* App.css */
+.button {
+    background-color: #4CAF50; /* Green background */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button.back {
+    background-color: #f44336; /* Red background for 'Back' button */
+  }
+  
+  .button.continue {
+    background-color: #008CBA; /* Blue background for 'Save & Continue' button */
+  }
+  
