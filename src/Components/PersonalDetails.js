@@ -37,7 +37,7 @@ const PersonalDetails = ({ nextStep }) => {
       <div className="form-container">
         <div className="container mx-5 mt-4 border">
           <div className="heading">
-            <h2>1. Personal Information</h2>
+            {/* <h2>1. Personal Information</h2> */}
           </div>
 
           {/* Full Name */}
